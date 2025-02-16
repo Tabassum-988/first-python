@@ -30,7 +30,7 @@ print(id_numbers)
 
 # Range
 number = range(1, 10)
-print(*number)  # Unpacking the range
+print(*number)  
 
 odd_number = range(1, 10, 2)
 print(*odd_number)
@@ -52,12 +52,12 @@ print(taka)
 # Mapping (Dictionary: Key-Value Pairs)
 # Ordered (indexed)
 person = {
-    "Name": "Tabassum Sultana",  # Removed extra space in key
+    "Name": "Tabassum Sultana",  
     "Age": 24,
     "isStudent": True,
 }
 print(person)
-print(person["Age"])  # Fixed key case sensitivity
+print(person["Age"])  
 
 # Set (Unordered, Unique, Mutable)
 position = {1, 2, 3, 4}
