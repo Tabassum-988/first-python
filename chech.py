@@ -1,3 +1,6 @@
+#check deta type
+
+
 a=10
 b=12.3
 c="Apple"
